@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const { protect } = require('../middleware/authMiddleware');
+const { placeOrder, getMyOrders, getOrder, cancelOrder, getInvoice, downloadInvoice } = require('../controllers/orderController');
+router.post('/', protect, placeOrder);
+router.get('/', protect, getMyOrders);
+router.get('/:id', protect, getOrder);
+router.put('/:id/cancel', protect, cancelOrder);
+router.get('/:id/invoice', protect, getInvoice);
+router.get('/:id/invoice/download', protect, downloadInvoice);
+module.exports = router;
