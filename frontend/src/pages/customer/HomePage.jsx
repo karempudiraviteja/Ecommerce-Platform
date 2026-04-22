@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="page-container py-20 lg:py-28 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left">
             <span className="inline-block bg-accent/20 text-accent text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
-              New Collection 2025
+              New Collection 2026
             </span>
             <h1 className="font-display text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
               Shop What<br />

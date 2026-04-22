@@ -42,7 +42,7 @@ export default function CustomerLayout() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
               <span className="font-display text-2xl font-bold text-white tracking-tight">
-                My<span className="text-accent">Store</span>
+                VL<span className="text-accent">Store</span>
               </span>
             </Link>
 
@@ -148,8 +148,8 @@ export default function CustomerLayout() {
       {/* Footer */}
       <footer className="bg-primary text-gray-400 py-10 mt-16">
         <div className="page-container text-center">
-          <span className="font-display text-xl font-bold text-white">My<span className="text-accent">Store</span></span>
-          <p className="text-sm mt-2">© {new Date().getFullYear()} MyStore. All rights reserved.</p>
+          <span className="font-display text-xl font-bold text-white">VL<span className="text-accent">Store</span></span>
+          <p className="text-sm mt-2">© {new Date().getFullYear()} VLStore. All rights reserved.</p>
         </div>
       </footer>
     </div>

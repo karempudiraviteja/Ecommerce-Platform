@@ -29,7 +29,7 @@ export default function AdminLayout() {
         <div className="flex items-center justify-between p-4 border-b border-white/10 h-16">
           {sidebarOpen && (
             <span className="font-display text-xl font-bold text-white">
-              My<span className="text-accent">Store</span>
+              VL<span className="text-accent">Store</span>
               <span className="text-xs text-gray-400 font-sans font-normal ml-1">admin</span>
             </span>
           )}
