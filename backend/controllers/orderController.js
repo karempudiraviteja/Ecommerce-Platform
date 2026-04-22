@@ -95,9 +95,9 @@ exports.getInvoice = async (req, res) => {
     invoice = await Invoice.create({
       order: order._id,
       user: req.user._id,
-      storeName: 'My Store',
+      storeName: 'VL Store',
       storeAddress: '123 Store Lane, Mumbai',
-      storeEmail: 'store@mystore.com',
+      storeEmail: 'store@vlstore.com',
       customerName: order.customerSnapshot.name,
       customerEmail: order.customerSnapshot.email,
       customerAddress: `${order.shippingAddress.street}, ${order.shippingAddress.city}, ${order.shippingAddress.state} - ${order.shippingAddress.zip}`,

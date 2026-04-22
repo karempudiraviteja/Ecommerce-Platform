@@ -110,9 +110,9 @@ exports.downloadInvoice = async (req, res) => {
     invoice = await Invoice.create({
       order: order._id,
       user: order.user,
-      storeName: 'My Store',
+      storeName: 'VL Store',
       storeAddress: '123 Store Lane, Mumbai, India',
-      storeEmail: 'store@mystore.com',
+      storeEmail: 'store@vlstore.com',
       customerName: order.customerSnapshot.name,
       customerEmail: order.customerSnapshot.email,
       customerAddress: `${order.shippingAddress.street}, ${order.shippingAddress.city}, ${order.shippingAddress.state} - ${order.shippingAddress.zip}`,
