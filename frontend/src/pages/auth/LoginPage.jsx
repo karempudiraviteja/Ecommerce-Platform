@@ -20,7 +20,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link to="/" className="font-display text-3xl font-bold text-white">
-            My<span className="text-accent">Store</span>
+            VL<span className="text-accent">Store</span>
           </Link>
           <p className="text-gray-400 mt-2 text-sm">Sign in to your account</p>
         </div>
@@ -68,13 +68,6 @@ export default function LoginPage() {
             Don't have an account?{' '}
             <Link to="/register" className="text-accent font-semibold hover:underline">Sign up</Link>
           </p>
-
-          {/* Demo credentials */}
-          <div className="mt-4 p-3 bg-gray-50 rounded-xl">
-            <p className="text-xs text-gray-500 font-medium mb-1">Demo credentials:</p>
-            <p className="text-xs text-gray-600">Admin: admin@store.com / admin123</p>
-            <p className="text-xs text-gray-600">Customer: alice@example.com / pass1234</p>
-          </div>
         </div>
       </div>
     </div>

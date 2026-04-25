@@ -22,7 +22,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link to="/" className="font-display text-3xl font-bold text-white">
-            My<span className="text-accent">Store</span>
+            VL<span className="text-accent">Store</span>
           </Link>
           <p className="text-gray-400 mt-2 text-sm">Create your account</p>
         </div>

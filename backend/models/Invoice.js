@@ -7,7 +7,7 @@ const invoiceSchema = new mongoose.Schema(
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     issuedAt: { type: Date, default: Date.now },
     dueDate: { type: Date },
-    storeName: { type: String, default: 'My Store' },
+    storeName: { type: String, default: 'VL Store' },
     storeAddress: { type: String, default: '' },
     storeEmail: { type: String, default: '' },
     customerName: String,
